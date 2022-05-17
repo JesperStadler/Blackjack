@@ -3,6 +3,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+body img{
+    max-width: 100px;
+}
 .container{
     margin: 0 auto;
     text-align: center;
@@ -34,16 +37,19 @@ body{
   margin-bottom: 10px;
   
 }
-table,th,td{
+table,
+th,
+td{
     padding: 5px;
     border: 1px solid white;
     color: white;
     align-items: center;
+    text-align: center;
 }
 #win-header{
     color: lightgreen;
 }
-#loss-header{
+#Loss-header{
     color: #d32f2f;
 }
 #draw-header{
